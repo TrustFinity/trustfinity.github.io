@@ -1,0 +1,109 @@
+/*
+==================================================
+[ Switcher Style ]
+==================================================
+ */
+
+#custumize-style {
+    text-align: center;
+    background-color: #f1f1f1;
+    border-radius: 0 0 3px;
+    right: 0;
+    padding: 12px 0;
+    position: fixed;
+    top: 80px;
+    width: 134px;
+    z-index: 999;
+}
+
+#custumize-style div {
+    padding: 0 8px;
+    padding-bottom: 5px;
+}
+
+#custumize-style h3 {
+    color: #222;
+    font-family: helvetica;
+    font-size: 1.2em;
+    letter-spacing: unset;
+    margin: 0 0 15px;
+    text-transform: capitalize;
+}
+
+#custumize-style .switcher {
+    display: block;
+    text-align: center;
+    height: 40px;
+    line-height: 50px;
+    color: #454545;
+    position: absolute;
+    left: -40px;
+    top: 0;
+    width: 40px;
+    border-radius: 3px 0 0 3px;
+    background: #f1f1f1;
+    _box-shadow: 1px 0 0 1px #ddd;
+}
+
+.fa-sliders {
+    margin-top: 5px;
+}
+
+.colors-style {
+    list-style: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.colors-style li {
+    float: left;
+    margin: 2px;
+}
+
+.colors-style li a {
+    display: block;
+    width: 32px;
+    height: 34px;
+    cursor: pointer;
+}
+
+.other-style {
+    margin-top: 10px !important;
+}
+
+.color_default {
+    border: 2px solid #337AB7;
+}
+
+.color_blue {
+    background-color: #1997d7;
+}
+
+.color_dark {
+    background-color: #333;
+}
+
+.color_purple {
+    background-color: #A640D0;
+}
+
+.color_green {
+    background-color: #00CAA2;
+}
+
+.color_red {
+    background-color: #E44948;
+}
+
+.color_pink {
+    background-color: #ff3e91;
+}
+
+.color_sky {
+    background-color: #00BFFF;
+}
+
+.color_black {
+    background-color: #222222;
+}
